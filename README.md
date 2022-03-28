@@ -5,7 +5,7 @@ We perform an election audit on the election results for a Colorado Board of Ele
 1. Total number of votes cast:  369,711
 2. Breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 County Votes:
-* Jefferson: 10.5% (38,855)
+emsp * Jefferson: 10.5% (38,855)
 * Denver: 82.8% (306,055)
 * Arapahoe: 6.7% (24,801)
 3. Country with the most votes: Denver
