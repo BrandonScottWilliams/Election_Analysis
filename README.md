@@ -2,15 +2,13 @@
 ## Overview of Election Audit:
 We perform an election audit on the election results for a Colorado Board of Elections employee who has given us the data from a recent local congressional election. We aim to figure out the number of total voters, voters per county, how many votes each candidate received and the winner of the election. We use a csv file, git and python to accomplish this task.
 ## Election Audit Results:
-1. Total number of votes cast:  
-* 369,711
+1. Total number of votes cast:  369,711
 3. Breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 County Votes:
 * Jefferson: 10.5% (38,855)
 * Denver: 82.8% (306,055)
 * Arapahoe: 6.7% (24,801)
-3. Country with the most votes:
-* Denver
+3. Country with the most votes: Denver
 5. Breakdown of the number of votes and the percentage of the total votes each candidate received:
 * Charles Casper Stockham: 23.0% (85,213)
 * Diana DeGette: 73.8% (272,892)
