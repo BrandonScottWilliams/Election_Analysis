@@ -1,7 +1,7 @@
 # Election_Analysis
 ## Overview of Election Audit:
 We perform an election audit on the election results for a Colorado Board of Elections employee who has given us the data from a recent local congressional election. We aim to figure out the number of total voters, voters per county, how many votes each candidate received and the winner of the election. We use a csv file, git and python to accomplish this task.
-## Election Audit Results
+## Election Audit Results:
 1. Total number of votes cast:  369,711
 2. Breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 County Votes:
