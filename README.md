@@ -20,6 +20,6 @@ County Votes:
 
 ## Election-Audit Summary:
 The script can be easily modified and repurposed for another election by changing lines 9 and 11.
-* file_to_load = os.path.join( "Resources", "election_results.csv")
-* file_to_save = os.path.join("analysis", "election_results.txt")
+ file_to_load = os.path.join( "Resources", "election_results.csv")
+ file_to_save = os.path.join("analysis", "election_results.txt")
 We used an indirect read for the file path to look for the election results folder, the code would habve to be adjusted based on the folders where the related csv file for the new election is stored. The code in line 9 that says "election results.csv" should also be changed to the filename of your source data. The source data would have to copy the layout of the election results.csv so that it could be treated similarly in python. Furthermore, you can optionally change the election_results.txt name and relevant variable names but that is not necessary as the program witll still be executed.
