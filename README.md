@@ -1,23 +1,25 @@
 # Election_Analysis
-##Project Overview
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local ccongressional election.
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
+## Overview of Election Audit:
+A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local ccongressional election. We use git and python to accomplish this task.
+## Election Audit Results
+1. Total number of votes cast:  369,711
+2. Breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+County Votes:
+* Jefferson: 10.5% (38,855)
+* Denver: 82.8% (306,055)
+* Arapahoe: 6.7% (24,801)
+3. Country with the most votes: Denver
+4. Breakdown of the number of votes and the percentage of the total votes each candidate received:
+* Charles Casper Stockham: 23.0% (85,213)
+* Diana DeGette: 73.8% (272,892)
+* Raymon Anthony Doane: 3.1% (11,606)
 5. Determine the winner of the election based on populr vote.
-## Resources
-* Data source: election_results.csv
-* Software: Python 3.6.1, Visual Studio Code, 1.38.1
-## Summary
-The analysis of the election shows that:
-* There were "x" votes cast in the election.
-* THe candidates were
-* * Raymon Anthony Doane
-* * Diana DeGette
-* * Charles Casper Stockham
-* The candidate results were:
-** Charles Casper Stockham: 23.0% (85,213)
-** Diana DeGette: 73.8% (272,892)
-** Raymon Anthony Doane: 3.1% (11,606)
-THe Winner: Diana DeGette received 272,892 votes with a Winning Percentage of 73.8%
+* Winner: Diana DeGette
+* Winning Vote Count: 272,892
+* Winning Percentage: 73.8%
+
+## Election-Audit Summary:
+The script can be easily modified and repurposed for another election by changing lines 9 and 11.
+* file_to_load = os.path.join( "Resources", "election_results.csv")
+* file_to_save = os.path.join("analysis", "election_results.txt")
+We used an indirect read for the file path to look for the election results folder, the code would habve to be adjusted based on the folders where the related csv file for the new election is stored. The code in line 9 that says "election results.csv" should also be changed to the filename of your source data. The source data would have to copy the layout of the election results.csv so that it could be treated similarly in python. Furthermore, you can optionally change the election_results.txt name and relevant variable names but that is not necessary as the program witll still be executed.
